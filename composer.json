@@ -1,0 +1,26 @@
+{
+    "name": "user/notes",
+    "authors": [
+        {
+            "name": "Abdiel",
+            "email": "wilsonabdiel86@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^10.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
